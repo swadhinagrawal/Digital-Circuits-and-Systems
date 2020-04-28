@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/HP/Desktop/digital
+vDDS
+Z0 !s110 1586888788
+!i10b 1
+!s100 hk=B@coQ]DAz:kYlZX@aF0
+I1b47h0d0WBMg=XbKBNKC02
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/HP/Desktop/digital/sinemod
+Z3 w1586888779
+Z4 8C:/Users/HP/Desktop/digital/sinemod/sinemod.v
+Z5 FC:/Users/HP/Desktop/digital/sinemod/sinemod.v
+L0 55
+Z6 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z7 !s108 1586888788.000000
+Z8 !s107 C:/Users/HP/Desktop/digital/sinemod/sinemod.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/HP/Desktop/digital/sinemod/sinemod.v|
+!s101 -O0
+!i113 1
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@d@d@s
+vDDS1
+!s110 1586863272
+!i10b 1
+!s100 2f4QedYEgFia020S^W[U70
+I^:nP@IH4Ya4IBOY[M>8RV3
+R1
+R2
+w1586863263
+R4
+R5
+L0 78
+R6
+r1
+!s85 0
+31
+!s108 1586863272.000000
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@d@d@s1
+vsync_rom
+R0
+!i10b 1
+!s100 1HWG;KodAzH2]DDgjFI=82
+I2oYV:En?ECB50HP4ohi>M0
+R1
+R2
+R3
+R4
+R5
+L0 77
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vtestbench
+R0
+!i10b 1
+!s100 9mNg?PYi0^_ab^eB>=8^R2
+In3aTXU8nzcCD3fXkZFaH=2
+R1
+R2
+R3
+R4
+R5
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10

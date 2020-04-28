@@ -1,0 +1,10 @@
+C:/Users/HP/Desktop/digital/sinemod/sinemod.v {1 {vlog -work work -stats=none C:/Users/HP/Desktop/digital/sinemod/sinemod.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module testbench
+-- Compiling module DDS
+-- Compiling module sync_rom
+
+Top level modules:
+	testbench
+
+} {} {}}
