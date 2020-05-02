@@ -1,4 +1,4 @@
-`timescale 1us/1us
+`timescale 100ns/100ns
 
 module testbench();
 	
@@ -16,16 +16,16 @@ module testbench();
 	
 	//Toggle the clocks
 	always begin
-		#1
+		#5
 		clk_1mhz  = !clk_1mhz;
 	end
 	
 	//Intialize and drive signals
 	initial begin
 		reset  = 1'b0;
-		#10 
+		#100 
 		reset  = 1'b1;
-		#30
+		#300
 		reset  = 1'b0;
 	end
 	
@@ -38,7 +38,7 @@ module testbench();
 	// hook up the sine wave generators
 DDS DUT   (.clock(clk_1mhz), 
         .reset(reset),
-				.increment({18'h00078, 14'b0}), 
+				.increment({18'h003D, 14'b0}), 
 				.phase(8'd0),
 				.sine_out(testbench_out));
 	

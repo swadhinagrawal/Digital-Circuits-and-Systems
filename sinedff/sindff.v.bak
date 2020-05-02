@@ -1,4 +1,4 @@
-`timescale 1us/1us
+`timescale 100ns/100ns
 module RisingEdge_DFlipFlop(D,clk,Q);
 	input signed [7:0] D; 
 	input clk; 
@@ -23,33 +23,33 @@ module tb_DFF();
 	//Initialize clock
 	initial begin
 		clk=0;
-		forever #1 clk = ~clk; //1MHz clock
+		forever #5 clk = ~clk; //1MHz clock
 	end 
 	always @ (posedge clk) begin 
 		D <= 0;
-		#361;
+		#362;
 		D <= 0.5;
-		#361;
+		#362;
 		D <= 0.7071067;
-		#361;
+		#362;
 		D <= 1;
-		#361;
+		#362;
 		D <= 0.7071067;
-		#361;
+		#362;
 		D <= 0.5;
-		#361;
+		#362;
 		D <= 0;
-		#361;
+		#362;
 		D <= -0.5;
-		#361;
+		#362;
 		D <= -0.7071067;
-		#361;
+		#362;
 		D <= -1;
-		#361;
+		#362;
 		D <= -0.7071067;
-		#361;
+		#362;
 		D <= -0.5;
-		#361;
+		#362;
 		D <= 0;
 	end 
 	RisingEdge_DFlipFlop FF0(D,clk,q1);
